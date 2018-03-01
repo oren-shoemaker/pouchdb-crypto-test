@@ -1,0 +1,4 @@
+1) Install pouchdb
+    npm install --save pouchdb
+2) Install crypto-pouch
+    npm install crypto-pouch
