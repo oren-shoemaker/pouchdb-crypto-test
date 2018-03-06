@@ -1,7 +1,7 @@
 {
-  "name": "$package_name$",
+  "name": "pouchdb-crypto-test",
   "version": "0.0.1",
   "dependencies": {
-    $END$
+    "@angular/core": "^4.0.0"
   }
 }
