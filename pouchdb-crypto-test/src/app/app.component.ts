@@ -15,15 +15,17 @@ export class AppComponent implements OnInit{
 
   public ngOnInit(){
     this.db = new PouchDB('kittens');
-    this.getInfo();
+    this.updateInfo();
   }
 
-  private getInfo(){
-    this.db.info().then(info =>{
-      this.dbinfo = info;
+  public updateInfo(){
+    this.dbinfo = this.db.info().then(info =>{
+      console.log(info);
+      return info;
     }).catch(err =>{
-      this.dbinfo = err;
-    })
+      console.log(err);
+      return err;
+    });
   }
 
 
