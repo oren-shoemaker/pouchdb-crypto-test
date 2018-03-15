@@ -32,4 +32,4 @@ CryptoService = __decorate([
     core_1.Injectable()
 ], CryptoService);
 exports.CryptoService = CryptoService;
-//# sourceMappingURL=crypto-service.js.map
+//# sourceMappingURL=crypto.service.js.map
